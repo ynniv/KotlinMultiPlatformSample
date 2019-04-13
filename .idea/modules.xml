@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/NmapExplorer.iml" filepath="$PROJECT_DIR$/.idea/NmapExplorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NmapExplorer.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/NmapExplorer.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NmapExplorer.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/NmapExplorer.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NmapExplorer.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/NmapExplorer.jsMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NmapExplorer.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/NmapExplorer.jsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NmapExplorer.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/NmapExplorer.jvmMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NmapExplorer.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/NmapExplorer.jvmTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NmapExplorer-js">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="NmapExplorer-js.jar">
+      <element id="module-output" name="NmapExplorer.jsMain" />
+    </root>
+  </artifact>
+</component>

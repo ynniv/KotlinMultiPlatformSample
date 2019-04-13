@@ -1,0 +1,9 @@
+build
+network.xml
+*.db
+*.jar
+src/jsMain/web/
+#Project
+workspace.xml
+tasks.xml
+.gradle

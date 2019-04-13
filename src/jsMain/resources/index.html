@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nmap GUI</title>
+    <script src="/static/require.min.js"></script>
+    <script>
+    require.config({baseUrl: '/static'})
+    require(['/static/NmapExplorer.js'], function(js) { window.nmapgui = js.nmapgui; onNmapGui() });
+</script>
+</head>
+<style>
+    div, table {
+      margin: 0.8em;
+    }
+    .host-entry {
+      font-family: monospace
+    }
+</style>
+
+<body>
+
+    Nmap GUI
+
+<div id="js-response"></div>
+<div id="upload">
+    <form action="#" id="uploadform">
+        <input type="file" id="fileupload" name="fileupload">
+        <input type="submit" value="Upload">
+    </form>
+</div>
+<div id="search">
+    <form action="#" id="searchform">
+        <input type="text" id="address" name="address">
+        <input type="submit" value="Search">
+    </form>
+</div>
+<div id="messagebox"></div>
+<div id="content"></div>
+<script>
+  function onNmapGui() {
+    document.addEventListener && document.addEventListener('DOMContentLoaded', doOnLoad);
+    function doOnLoad () {
+        ;
+    }
+    document.forms.searchform.onsubmit = nmapgui.onSearchSubmit;
+    document.forms.uploadform.onsubmit = nmapgui.onUploadSubmit;
+  }
+</script>
+</body>
+</html>

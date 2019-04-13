@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:0.10.0" type="kotlin.js">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-js/0.10.0/b6735a3298291a4a376e28793385a406db6d30fb/kotlinx-serialization-runtime-js-0.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-js/0.10.0/2cf616232b7a03979bdb0f8831b47943a933c33/kotlinx-serialization-runtime-js-0.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
